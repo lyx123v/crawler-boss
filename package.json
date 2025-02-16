@@ -1,0 +1,19 @@
+{
+  "name": "crawler-boss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node 爬取boss.js",
+    "filter": "node 筛选数据.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

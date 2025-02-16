@@ -1,0 +1,16 @@
+$$('')选择器查询DOM元素
+
+page.goto('XXX') // 打开XXX网站
+
+page.waitForSelector('') // 等待页面显示(选择器)加载完成
+
+page.$eval('','') // 获取指定元素执行JS代码
+
+page.evaluate('') // 执行JS代码
+
+browser.close() // 关闭浏览器
+
+page.screenshot({ path: 'screenshot.png' }) // 截图
+
+page.pdf({ path: 'page.pdf' }) // 生成PDF
+
